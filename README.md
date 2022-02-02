@@ -49,28 +49,30 @@
    Procure a seção de plugins e edite conforme abaixo. Você pode encontrar mais e ler o que os plugins fazem [aqui](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins).  
    
    dotenv é particularmente útil, pois você pode criar um arquivo .env com suas variáveis ​​ENV que o plug-in carregará automaticamente quando você estiver dentro do diretório raiz do seu projeto.
-
-```textile
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    git
-    zsh-completions
-    macos
-    sudo
-    dotenv
-)
-```
-
-   Você também precisa adicionar a seguinte linha para estar no final do arquivo.
-
-```textile
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-```
-
-4. **Instalar e customizar o tema para o ZSH**
    
-   Baixe meu arquivo p10k.zsh [aqui](https://github.com/humbertoluks/powerlevel10k/blob/master/p10k.zsh). Copie-o para sua pasta pessoal e renomeie-o para .p10k.zsh.  
+   ```
+   ```textile
+   # Example format: plugins=(rails git textmate ruby lighthouse)
+   # Add wisely, as too many plugins slow down shell startup.
+   plugins=(
+       git
+       zsh-completions
+       macos
+       sudo
+       dotenv
+   )
+   ```
+   ```
+   
+   Você também precisa adicionar a seguinte linha para estar no final do arquivo.
+   
+   ```textfile
+   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+   ```
+   
+   
+
+4. Baixe meu arquivo p10k.zsh [aqui](https://github.com/humbertoluks/powerlevel10k/blob/master/p10k.zsh). Copie-o para sua pasta pessoal e renomeie-o para .p10k.zsh.  
    
    Adicione as seguintes linhas na parte superior do arquivo .zshrc. Isso é para habilitar o recurso de prompt instantâneo do Powerlevel10k.
    
